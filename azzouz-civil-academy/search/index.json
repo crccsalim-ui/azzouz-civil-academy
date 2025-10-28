@@ -1,0 +1,558 @@
+{
+  "documentCount": 3,
+  "nextId": 3,
+  "documentIds": {
+    "0": "exemple-eurocode2",
+    "1": "exemple-eurocode3",
+    "2": "exemple-rpa2003"
+  },
+  "fieldIds": {
+    "title": 0,
+    "summary": 1,
+    "tags": 2,
+    "domain": 3,
+    "jurisdiction": 4
+  },
+  "fieldLength": {
+    "0": [
+      8,
+      16,
+      5,
+      1,
+      1
+    ],
+    "1": [
+      7,
+      15,
+      4,
+      1,
+      1
+    ],
+    "2": [
+      7,
+      13,
+      3,
+      1,
+      1
+    ]
+  },
+  "averageFieldLength": [
+    7.333333333333333,
+    14.666666666666666,
+    4,
+    1,
+    1
+  ],
+  "storedFields": {
+    "0": {
+      "id": "exemple-eurocode2",
+      "title": "Exemple — Eurocode 2 : Calcul des structures en béton",
+      "summary": "Guide d'application synthétique dédié aux éléments porteurs en béton armé selon l'Eurocode 2.",
+      "domain": "ba",
+      "jurisdiction": "FR",
+      "year": 2023,
+      "tags": [
+        "Eurocode 2",
+        "béton armé",
+        "dimensionnement"
+      ],
+      "rights_status": "public_domain",
+      "status": "active"
+    },
+    "1": {
+      "id": "exemple-eurocode3",
+      "title": "Exemple — Eurocode 3 : Calcul des structures acier",
+      "summary": "Synthèse des règles de vérification à l'Eurocode 3 pour portiques et charpentes bâtiment.",
+      "domain": "acier",
+      "jurisdiction": "FR",
+      "year": 2022,
+      "tags": [
+        "Eurocode 3",
+        "acier",
+        "charpente"
+      ],
+      "rights_status": "public_domain",
+      "status": "active"
+    },
+    "2": {
+      "id": "exemple-rpa2003",
+      "title": "Exemple — RPA 2003 modifié 2020 (Algérie)",
+      "summary": "Guide de lecture du Règlement Parasismique Algérien (RPA 2003) après amendements 2020.",
+      "domain": "sismique",
+      "jurisdiction": "DZ",
+      "year": 2020,
+      "tags": [
+        "RPA",
+        "parasismique",
+        "Algérie"
+      ],
+      "rights_status": "unclear",
+      "status": "active"
+    }
+  },
+  "dirtCount": 0,
+  "index": [
+    [
+      "parasismique",
+      {
+        "1": {
+          "2": 1
+        },
+        "2": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "portiques",
+      {
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "porteurs",
+      {
+        "1": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "pour",
+      {
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "modifié",
+      {
+        "0": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "règlement",
+      {
+        "1": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "règles",
+      {
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "rpa",
+      {
+        "0": {
+          "2": 1
+        },
+        "1": {
+          "2": 1
+        },
+        "2": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "charpente",
+      {
+        "2": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "charpentes",
+      {
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "calcul",
+      {
+        "0": {
+          "0": 1,
+          "1": 1
+        }
+      }
+    ],
+    [
+      "à",
+      {
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "vérification",
+      {
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "3",
+      {
+        "0": {
+          "1": 1
+        },
+        "1": {
+          "1": 1
+        },
+        "2": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "fr",
+      {
+        "4": {
+          "0": 1,
+          "1": 1
+        }
+      }
+    ],
+    [
+      "bâtiment",
+      {
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "ba",
+      {
+        "3": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "béton",
+      {
+        "0": {
+          "0": 1
+        },
+        "1": {
+          "0": 1
+        },
+        "2": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "lecture",
+      {
+        "1": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "l",
+      {
+        "1": {
+          "0": 1,
+          "1": 1
+        }
+      }
+    ],
+    [
+      "éléments",
+      {
+        "1": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "amendements",
+      {
+        "1": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "après",
+      {
+        "1": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "application",
+      {
+        "1": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "algérien",
+      {
+        "1": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "algérie",
+      {
+        "0": {
+          "2": 1
+        },
+        "2": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "acier",
+      {
+        "0": {
+          "1": 1
+        },
+        "2": {
+          "1": 1
+        },
+        "3": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "armé",
+      {
+        "1": {
+          "0": 1
+        },
+        "2": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "aux",
+      {
+        "1": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "sismique",
+      {
+        "3": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "synthèse",
+      {
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "synthétique",
+      {
+        "1": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "selon",
+      {
+        "1": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "structures",
+      {
+        "0": {
+          "0": 1,
+          "1": 1
+        }
+      }
+    ],
+    [
+      "dz",
+      {
+        "4": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "du",
+      {
+        "1": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "de",
+      {
+        "1": {
+          "1": 1,
+          "2": 1
+        }
+      }
+    ],
+    [
+      "des",
+      {
+        "0": {
+          "0": 1,
+          "1": 1
+        },
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "dimensionnement",
+      {
+        "2": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "dédié",
+      {
+        "1": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "d",
+      {
+        "1": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "guide",
+      {
+        "1": {
+          "0": 1,
+          "2": 1
+        }
+      }
+    ],
+    [
+      "2020",
+      {
+        "0": {
+          "2": 1
+        },
+        "1": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "2003",
+      {
+        "0": {
+          "2": 1
+        },
+        "1": {
+          "2": 1
+        }
+      }
+    ],
+    [
+      "2",
+      {
+        "0": {
+          "0": 1
+        },
+        "1": {
+          "0": 1
+        },
+        "2": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "et",
+      {
+        "1": {
+          "1": 1
+        }
+      }
+    ],
+    [
+      "en",
+      {
+        "0": {
+          "0": 1
+        },
+        "1": {
+          "0": 1
+        }
+      }
+    ],
+    [
+      "eurocode",
+      {
+        "0": {
+          "0": 1,
+          "1": 1
+        },
+        "1": {
+          "0": 1,
+          "1": 1
+        },
+        "2": {
+          "0": 1,
+          "1": 1
+        }
+      }
+    ],
+    [
+      "exemple",
+      {
+        "0": {
+          "0": 1,
+          "1": 1,
+          "2": 1
+        }
+      }
+    ]
+  ],
+  "serializationVersion": 2
+}

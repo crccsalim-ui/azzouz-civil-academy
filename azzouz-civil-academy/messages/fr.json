@@ -1,0 +1,133 @@
+{
+  "home": {
+    "tagline": "Ingénierie & savoir",
+    "title": "AZ-CIVIL-ACADEMY",
+    "description": "Explorez la base documentaire et les fiches pratiques de Salim AZZOUZ pour l'ingénierie civile.",
+    "ctaStandards": "Explorer les normes",
+    "ctaCourses": "Voir les cours",
+    "featuredTitle": "Documents à la une",
+    "featuredSubtitle": "Une sélection de fiches disponibles immédiatement.",
+    "viewAll": "Voir toutes les normes",
+    "emptyLibrary": "Ajoutez vos premiers documents via le script publish_docs.ps1.",
+    "featureIngestTitle": "Ingestion guidée",
+    "featureIngestDescription": "Ajoutez vos PDF avec calcul automatique des métadonnées, du hash et du statut de droits.",
+    "featureSearchTitle": "Recherche professionnelle",
+    "featureSearchDescription": "MiniSearch supporte le multi-langues, la tolérance aux fautes et les filtres combinés.",
+    "featureLocalizationTitle": "Interface trilingue",
+    "featureLocalizationDescription": "Une expérience cohérente en français, anglais et arabe (RTL)."
+  },
+  "navigation": {
+    "home": "Accueil",
+    "standards": "Normes",
+    "essais": "Essais in situ",
+    "geotech": "Géotechnique",
+    "metal": "Charpente métallique",
+    "seismic": "Parasismique",
+    "courses": "Cours",
+    "about": "À propos",
+    "contact": "Contact",
+    "legal": "Mentions légales"
+  },
+  "pages": {
+    "standards": {
+      "title": "Base des normes",
+      "intro": "Consultez et filtrez les normes, guides et textes de référence pour vos projets."
+    },
+    "essais": {
+      "title": "Essais in situ",
+      "intro": "Méthodes, fiches et protocoles pour les essais de terrain courants."
+    },
+    "geotech": {
+      "title": "Géotechnique",
+      "intro": "Documents et recommandations pour l'étude des sols et fondations."
+    },
+    "metal": {
+      "title": "Charpente métallique",
+      "intro": "Outils et normes pour concevoir des structures métalliques fiables."
+    },
+    "seismic": {
+      "title": "Parasismique",
+      "intro": "Référentiels et bonnes pratiques pour les zones sismiques."
+    },
+    "courses": {
+      "title": "Cours & formations",
+      "intro": "Supports pédagogiques pour étudiants et stagiaires."
+    },
+    "about": {
+      "title": "À propos de l'académie",
+      "intro": "Découvrez le parcours et la vision de Salim AZZOUZ."
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "Une question ou une suggestion ? Écrivez-nous."
+    },
+    "legal": {
+      "title": "Mentions légales",
+      "intro": "Informations légales, confidentialité et conditions d'utilisation."
+    }
+  },
+  "common": {
+    "searchPlaceholder": "Rechercher une norme, un thème, un mot-clé…",
+    "download": "Télécharger",
+    "viewSource": "Consulter la source",
+    "rights": "Droits",
+    "filters": "Filtres",
+    "reset": "Réinitialiser",
+    "language": "Langue",
+    "lightMode": "Mode clair",
+    "darkMode": "Mode sombre",
+    "loading": "Chargement…",
+    "results": "résultat(s)",
+    "noResults": "Aucun document ne correspond aux critères.",
+    "viewDetails": "Voir la fiche",
+    "filteredMessage": "Certains résultats ont été filtrés selon vos critères.",
+    "searchAction": "Rechercher",
+    "downloadError": "Téléchargement indisponible pour le moment.",
+    "documentDetails": "Informations",
+    "publisher": "Éditeur",
+    "identifier": "Identifiant",
+    "lastUpdated": "Dernière mise à jour"
+  },
+  "filters": {
+    "title": "Filtres",
+    "reset": "Réinitialiser",
+    "domains": "Domaines",
+    "jurisdictions": "Juridictions",
+    "rights": "Statut des droits",
+    "year": "Année de publication",
+    "yearAny": "Toutes les années",
+    "domain": {
+      "ba": "Béton armé",
+      "acier": "Acier",
+      "sismique": "Parasismique",
+      "geotech": "Géotechnique",
+      "essais": "Essais in situ"
+    },
+    "jurisdiction": {
+      "fr": "France",
+      "dz": "Algérie",
+      "int": "International"
+    },
+    "rightsStatus": {
+      "own": "Téléchargeable",
+      "licensed": "Sous licence",
+      "public_domain": "Domaine public",
+      "unclear": "À confirmer"
+    },
+    "status": {
+      "active": "En vigueur",
+      "withdrawn": "Retiré",
+      "draft": "Projet",
+      "unknown": "À préciser"
+    },
+    "sort": {
+      "newest": "Plus récents d'abord",
+      "oldest": "Plus anciens d'abord"
+    }
+  },
+  "errors": {
+    "notFoundTitle": "Page introuvable",
+    "notFoundDescription": "Le contenu que vous cherchez n'existe plus ou a été déplacé.",
+    "backHome": "Retourner à l'accueil"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "AZ-CIVIL-ACADEMY",
+  "tagline": {
+    "fr": "Ing�nierie & Savoir",
+    "en": "Engineering & Knowledge",
+    "ar": "????? ??????"
+  },
+  "author": {
+    "name": "Salim AZZOUZ",
+    "title": "Ing�nieur en g�nie civil",
+    "email": "contact@az-civil-academy.com"
+  },
+  "locales": ["fr", "en", "ar"],
+  "defaultLocale": "fr",
+  "menu": [
+    {"id": "home", "path": "/", "translationKey": "navigation.home"},
+    {"id": "standards", "path": "/standards", "translationKey": "navigation.standards"},
+    {"id": "essais", "path": "/essais", "translationKey": "navigation.essais"},
+    {"id": "geotech", "path": "/geotech", "translationKey": "navigation.geotech"},
+    {"id": "metal", "path": "/metal", "translationKey": "navigation.metal"},
+    {"id": "seismic", "path": "/seismic", "translationKey": "navigation.seismic"},
+    {"id": "courses", "path": "/courses", "translationKey": "navigation.courses"},
+    {"id": "about", "path": "/about", "translationKey": "navigation.about"},
+    {"id": "contact", "path": "/contact", "translationKey": "navigation.contact"},
+    {"id": "legal", "path": "/legal", "translationKey": "navigation.legal"}
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/salim-azzouz",
+    "email": "mailto:contact@az-civil-academy.com"
+  }
+}

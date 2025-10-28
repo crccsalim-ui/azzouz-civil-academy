@@ -1,0 +1,133 @@
+{
+  "home": {
+    "tagline": "Engineering & knowledge",
+    "title": "AZ-CIVIL-ACADEMY",
+    "description": "Browse civil engineering standards and practice sheets curated by Salim AZZOUZ.",
+    "ctaStandards": "Browse standards",
+    "ctaCourses": "View courses",
+    "featuredTitle": "Highlighted documents",
+    "featuredSubtitle": "A quick selection to explore the library.",
+    "viewAll": "View all standards",
+    "emptyLibrary": "Add your first documents via publish_docs.ps1.",
+    "featureIngestTitle": "Guided ingestion",
+    "featureIngestDescription": "Upload PDFs with automatic metadata, hashing, and rights status checks.",
+    "featureSearchTitle": "Pro-grade search",
+    "featureSearchDescription": "MiniSearch handles multi-language queries, typos, and combined filters.",
+    "featureLocalizationTitle": "Three languages",
+    "featureLocalizationDescription": "A consistent experience in French, English, and Arabic (RTL)."
+  },
+  "navigation": {
+    "home": "Home",
+    "standards": "Standards",
+    "essais": "Field tests",
+    "geotech": "Geotechnics",
+    "metal": "Steel structures",
+    "seismic": "Seismic",
+    "courses": "Courses",
+    "about": "About",
+    "contact": "Contact",
+    "legal": "Legal"
+  },
+  "pages": {
+    "standards": {
+      "title": "Standards library",
+      "intro": "Browse, filter, and review engineering standards and reference documents."
+    },
+    "essais": {
+      "title": "Field tests",
+      "intro": "Methods and datasheets for the most common on-site tests."
+    },
+    "geotech": {
+      "title": "Geotechnics",
+      "intro": "Guidelines and documents to understand soil investigations and foundations."
+    },
+    "metal": {
+      "title": "Steel structures",
+      "intro": "Resources to design safe and efficient steel frameworks."
+    },
+    "seismic": {
+      "title": "Seismic engineering",
+      "intro": "Reference material and best practices for seismic design."
+    },
+    "courses": {
+      "title": "Courses & training",
+      "intro": "Learning materials for students and trainees."
+    },
+    "about": {
+      "title": "About the academy",
+      "intro": "Learn more about Salim AZZOUZ and his vision."
+    },
+    "contact": {
+      "title": "Contact",
+      "intro": "Have a question or suggestion? Send us a message."
+    },
+    "legal": {
+      "title": "Legal information",
+      "intro": "Legal notice, privacy policy, and terms of use."
+    }
+  },
+  "common": {
+    "searchPlaceholder": "Search a standard, topic, or keyword…",
+    "download": "Download",
+    "viewSource": "View source",
+    "rights": "Rights",
+    "filters": "Filters",
+    "reset": "Reset",
+    "language": "Language",
+    "lightMode": "Light mode",
+    "darkMode": "Dark mode",
+    "loading": "Loading…",
+    "results": "result(s)",
+    "noResults": "No document matches the selected filters.",
+    "viewDetails": "View details",
+    "filteredMessage": "Some results were hidden because of active filters.",
+    "searchAction": "Search",
+    "downloadError": "Download temporarily unavailable.",
+    "documentDetails": "Details",
+    "publisher": "Publisher",
+    "identifier": "Identifier",
+    "lastUpdated": "Last updated"
+  },
+  "filters": {
+    "title": "Filters",
+    "reset": "Reset",
+    "domains": "Domains",
+    "jurisdictions": "Jurisdictions",
+    "rights": "Rights status",
+    "year": "Publication year",
+    "yearAny": "All years",
+    "domain": {
+      "ba": "Reinforced concrete",
+      "acier": "Steel",
+      "sismique": "Seismic",
+      "geotech": "Geotechnics",
+      "essais": "Field tests"
+    },
+    "jurisdiction": {
+      "fr": "France",
+      "dz": "Algeria",
+      "int": "International"
+    },
+    "rightsStatus": {
+      "own": "Downloadable",
+      "licensed": "Licensed",
+      "public_domain": "Public domain",
+      "unclear": "To confirm"
+    },
+    "status": {
+      "active": "Active",
+      "withdrawn": "Withdrawn",
+      "draft": "Draft",
+      "unknown": "Unknown"
+    },
+    "sort": {
+      "newest": "Newest first",
+      "oldest": "Oldest first"
+    }
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "The document you are looking for has been moved or no longer exists.",
+    "backHome": "Go back home"
+  }
+}

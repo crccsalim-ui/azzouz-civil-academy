@@ -1,0 +1,63 @@
+import {ReactNode} from 'react';
+
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages, setRequestLocale} from 'next-intl/server';
+import {notFound} from 'next/navigation';
+
+import {fontVariables} from '@/lib/fonts';
+import {buildSiteMetadata} from '@/lib/metadata';
+import {Locale, locales} from '@/lib/i18n';
+import {getDirection} from '@/lib/rtl';
+
+type LayoutProps = {
+  children: ReactNode;
+  params: {locale: string};
+};
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({locale}));
+}
+
+export async function generateMetadata({params}: LayoutProps) {
+  const locale = params.locale as Locale;
+
+  if (!locales.includes(locale)) {
+    notFound();
+  }
+
+  return buildSiteMetadata(locale);
+}
+
+export default async function LocaleLayout({children, params}: LayoutProps) {
+  const locale = params.locale as Locale;
+
+  if (!locales.includes(locale)) {
+    notFound();
+  }
+
+  setRequestLocale(locale);
+
+  const messages = await getMessages();
+  const dir = getDirection(locale);
+  const isRtl = dir === 'rtl';
+
+  return (
+    <html
+      lang={locale}
+      dir={dir}
+      className={`${fontVariables} ${isRtl ? 'rtl' : 'ltr'}`}
+      suppressHydrationWarning
+    >
+      <body
+        className={`min-h-screen bg-[var(--background)] text-[var(--foreground)] ${
+          isRtl ? 'rtl font-arabic' : 'ltr font-latin'
+        }`}
+      >
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          {children}
+        </NextIntlClientProvider>
+      </body>
+    </html>
+  );
+}
+

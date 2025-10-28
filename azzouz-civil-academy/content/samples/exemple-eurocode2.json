@@ -1,0 +1,23 @@
+{
+  "id": "exemple-eurocode2",
+  "title": "Exemple — Eurocode 2 : Calcul des structures en béton",
+  "domain": "ba",
+  "jurisdiction": "FR",
+  "publisher": "CEN",
+  "year": 2023,
+  "status": "active",
+  "rights_status": "public_domain",
+  "distribution_mode": "link_out",
+  "source_official_url": "https://eurocodes.jrc.ec.europa.eu/",
+  "summary": "Guide d'application synthétique dédié aux éléments porteurs en béton armé selon l'Eurocode 2.",
+  "citations": [
+    {
+      "quote": "Les coefficients partiels de sécurité proposés garantissent un niveau de fiabilité cohérent au sein de l'UE.",
+      "page": "§2.4.2",
+      "ref": "EN 1992-1-1"
+    }
+  ],
+  "tags": ["Eurocode 2", "béton armé", "dimensionnement"],
+  "created_at": "2024-01-15T00:00:00Z",
+  "updated_at": "2024-06-01T00:00:00Z"
+}

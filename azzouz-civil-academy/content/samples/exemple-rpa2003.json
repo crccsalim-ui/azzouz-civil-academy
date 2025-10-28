@@ -1,0 +1,23 @@
+{
+  "id": "exemple-rpa2003",
+  "title": "Exemple — RPA 2003 modifié 2020 (Algérie)",
+  "domain": "sismique",
+  "jurisdiction": "DZ",
+  "publisher": "Ministère de l'Habitat d'Algérie",
+  "year": 2020,
+  "status": "active",
+  "rights_status": "unclear",
+  "distribution_mode": "link_out",
+  "source_official_url": "https://www.mtp.gov.dz/",
+  "summary": "Guide de lecture du Règlement Parasismique Algérien (RPA 2003) après amendements 2020.",
+  "citations": [
+    {
+      "quote": "Le niveau d'accélération de calcul dépend du zonage sismique mis à jour en 2020.",
+      "page": "Chapitre 2",
+      "ref": "RPA 2003 mod.2020"
+    }
+  ],
+  "tags": ["RPA", "parasismique", "Algérie"],
+  "created_at": "2024-03-05T00:00:00Z",
+  "updated_at": "2024-06-01T00:00:00Z"
+}
